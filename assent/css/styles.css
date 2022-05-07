@@ -8,10 +8,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .main-section{
-    width: 100vw;
-}
-.main-section__title{
     width: 100%;
+    padding: 30px 0px 40px;
+}
+
+.main-section__title{
     padding: 0px 15px;
 }
 
@@ -29,8 +30,7 @@ body {
 
 .main-section__info {
     display: flex;
-    padding: 0px 15px;
-    margin-top: 10px
+    padding: 25px 15px 0px;
 }
 
 .section-img {
@@ -39,13 +39,13 @@ body {
 
 .section-info {
     width: 50%;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .section-text {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .color-1 {
@@ -56,7 +56,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 .icon {
@@ -78,8 +77,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 15px 40px;
-    margin-top: 40px;
+    padding: 50px 15px 0px;
 }
 
 .button {
@@ -90,7 +88,7 @@ body {
 }
 
 .icon-mail{
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 /*-------------------------------------------*/
@@ -98,12 +96,13 @@ body {
 /*-------------------------------------------*/
 
 .secundary-section {
-    width: 100vw;
+    width: 100%;
     background-color: #FCDA68;
+    padding: 30px 0px 40px;
 }
 
 .secundary-section__title{
-    padding: 25px 15px 0px;
+    padding: 0px 15px;
 }
 
 .s-section-title {
@@ -119,11 +118,28 @@ body {
 }
 
 .s-section-tables {
-    padding: 10px 15px;
+    padding: 25px 15px 0px;
 }
 
+.table {
+    margin-top: 20px;
+}
+
+.colum-1 {
+    padding-right: 20px;
+}
+.colum-fw {
+    font-weight: 600;
+}
+
+.table-line {
+    height: 1.5px;
+    background-color: #423F40;
+    width: 100%;
+    margin: 10px 0px;
+}
 .s-section-skills {
-    padding: 0px 15px 40px;
+    padding: 25px 15px 0px;
 }
 
 .s-section-subtitle {
@@ -185,7 +201,6 @@ body {
 
 footer {
     width: 100vw;
-    padding: 15px 0px 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -194,23 +209,18 @@ footer {
 .footer__title {
     font-size: 32px;
     font-weight: 600;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .footer__contact {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 15px;
-    margin-bottom: 25px;
 }
 
 .contact-info {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: column;
-    width: 50%;
-    
+    align-items: center;
 }
 
 .contact-icon {
@@ -221,7 +231,6 @@ footer {
     height: 70px;
     border-radius: 50%;
     background-color: red;
-    margin: 0px 5px;
 }
 
 
