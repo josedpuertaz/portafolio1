@@ -167,18 +167,22 @@ body {
 
 .portfolio-section {
     width: 100vw;
-    padding-bottom: 20px;
+    padding: 30px 0px 40px;
 }
 
 .p-section__title {
-    padding: 25px 15px 0px;
     font-size: 32px;
     font-weight: 600;
+    padding: 0px 15px;
 }
+
 
 .p-section__projects {
     padding: 0px 15px;
-    margin-top: 20px;
+}
+
+.project {
+    padding-top: 25px;
 }
 
 .project-title {
@@ -187,12 +191,9 @@ body {
     color: #8E7BEF;
 }
 
-.project {
-    margin-top: 20px;
-}
-
 .proyect-img {
     width: 100%;
+    padding: 0px 15px;
 }
 
 /*-------------------------------------------*/
@@ -204,23 +205,27 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 30px 15px 40px;
 }
 
 .footer__title {
     font-size: 32px;
     font-weight: 600;
-    padding-bottom: 25px;
 }
 
 .footer__contact {
+    padding-top: 25px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 0px 25px;
 }
 
 .contact-icon {
@@ -230,9 +235,19 @@ footer {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #f9f5f2;
+    color: #8E7BEF;
 }
 
+.contact-text {
+    margin-top: 20px;
+    color: #808080;
+}
+
+.footer__by {
+    padding-top: 25px;
+    color: #8E7BEF;
+}
 
 @media (min-width: 576px) {
 
