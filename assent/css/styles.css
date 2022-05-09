@@ -8,14 +8,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.header {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    background-color: #f9f5f2;
-}
-
-
 /*-------------------------------------------*/
             /*MAIN SECTION*/
 /*-------------------------------------------*/
@@ -262,6 +254,76 @@ footer {
 }
 
 @media (min-width: 576px) {
+
+    body {
+        font-size: 25px
+    }
+
+    /*-------------------------------------------*/
+                /*MAIN SECTION*/
+    /*-------------------------------------------*/
+ 
+    .section-title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    
+    .section-subtitle {
+        font-size: 42px;
+    }
+    
+    .section-text {
+        font-size: 30px;
+    }
+ 
+    .icon {
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+    }
+    
+    .icon-m {
+        font-size: 25px;
+    }
+    
+    .icon-mail{
+        margin-right: 15px;
+    }
+    
+    /*-------------------------------------------*/
+                /*SECUNDARY SECTION*/
+    /*-------------------------------------------*/
+
+    .s-section-title {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    /*-------------------------------------------*/
+                /*PORTFOLIO-SECTION*/
+    /*-------------------------------------------*/
+    
+    .p-section__title {
+        font-size: 35px;
+    }
+
+    .project-title {
+        font-size: 25px;
+    }
+
+    /*-------------------------------------------*/
+                /*FOOTER*/
+    /*-------------------------------------------*/
+    
+    .footer__title {
+        font-size: 35px;
+    }
+    
+    
+    .contact-icon {
+        width: 85px;
+        height: 85px;
+    }
 
 }
 
